@@ -1,6 +1,8 @@
 # Sumo-Robot-RTU-IZV
 The project is programming a sumo robot based on MicroPython to participate in the RTU Sumo Robot battle by the end of the 2023/2024 school year.
 
+Objectives until April 4th:
+
 Implement Fast Charging with Type-C Connector:
 1.1. Develop a new chip for controlling battery charging using MicroPython.
 1.2. Enhance the existing library in the ESP32 processor using C++ to improve voltage tracking for fast charging.
