@@ -9,8 +9,8 @@ Implement Fast Charging with Type-C Connector:
 
 Code UV Sensors for Color Differentiation and Field Border Tracking:
  2.1 Develop code for UV sensors to differentiate colors and track field borders for the robot.
+ 
 Implement WiFi Control over ESP32 Processor:
-
 3.1. Incorporate ESP8266EX on the PCB for WiFi capabilities.
 3.2. Develop an application for phone or Windows to communicate with the chip.
 3.3. Enhance WiFi connection control in all existing code for sumo robots. This includes:
@@ -18,6 +18,12 @@ Implement WiFi Control over ESP32 Processor:
 - Implementing error handling and reconnection mechanisms for uninterrupted operation.
 - Optimizing WiFi configurations for power efficiency and reliability.
 - Testing and debugging the WiFi control extensively to ensure seamless integration with other functionalities.
+  
+Optimize robot-vision by implementing ulltrsound distance sensor abilities in general code.
+
+Implement in code control buttons for turning on and off robots system and rebooting it.
+
+
 
 
    
