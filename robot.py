@@ -2,6 +2,8 @@ from machine import Pin
 from machine import Pin, PWM, I2C, Timer
 from micropython import const
 import imu
+import ustruct
+import utime
 
 class Button:
     
@@ -137,9 +139,6 @@ class Imu:
             self.motor[mId][0].duty_u16(0xFFFF+speed)
 # Source from: https://github.com/kevinmcaleer/vl53l0x
 
-from micropython import const
-import ustruct
-import utime
 # from machine import Timer
 # import time
 
@@ -799,6 +798,8 @@ class VL53L0X():
         self._register(SYSTEM_INTERRUPT_CLEAR, 0x01)
         self._register(SYSRANGE_START, 0x00)
         return True
+
+
         else:
             self.motor[mId][0].duty_u16(0xFFFF)
             self.motor[mId][1].duty_u16(0xF
